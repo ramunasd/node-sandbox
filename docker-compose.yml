@@ -1,0 +1,5 @@
+sandbox:
+  image: ramunasd/node-sandbox
+  volumes:
+    - .:/tmp/sandbox
+
