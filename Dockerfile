@@ -8,3 +8,4 @@ ENV HOME /tmp
 RUN npm config set global true
 RUN mkdir /tmp/sandbox
 WORKDIR /tmp/sandbox
+CMD ["tailf", "/dev/null"]

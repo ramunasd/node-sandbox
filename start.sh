@@ -1,4 +1,5 @@
 #!/usr/bin/env sh
 
-docker-compose run --rm sandbox bash
+docker-compose up -d
+docker-compose exec sandbox bash
 
